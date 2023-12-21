@@ -15,7 +15,6 @@ const Navbar = () => {
       <Link className="desktopMenuListItem">Portfolio</Link>
       <Link className="desktopMenuListItem">Client</Link>
 
-      
       <button className="desktopMenuButton">
 
         <img src="" alt="" className="desktopMenuImg" /> Contact Me
@@ -26,7 +25,6 @@ const Navbar = () => {
     </nav>
   )
 }
-
 export default Navbar;
 
 
