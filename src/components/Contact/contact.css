@@ -68,3 +68,9 @@
     width: 3rem;
     margin: 0 0.75rem;
 }
+
+.submitBtn{
+
+    cursor: pointer;
+
+}
