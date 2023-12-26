@@ -1,6 +1,9 @@
 import Navbar from "./components/NavBar/navbar.js";
 import Intro from "./components/Intro/intro.js";
 import Skills from "./components/Skills/skills.js";
+import Works from "./components/works/works.js";
+import Contact from "./components/Contact/contact.js";
+import Footer from "./components/Footer/footer.js";
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
     <Navbar/>
     <Intro/>
     <Skills/>
-    
+    <Works/>
+    <Contact/>
+    <Footer/>
     </div>
     
   );
