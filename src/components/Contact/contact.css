@@ -1,3 +1,4 @@
+
 #contactPage{
     margin: 0 auto;
     min-height: calc(100vh -4rem);
@@ -9,6 +10,7 @@
     justify-content: center;
     text-align: center;
     padding: 0 1rem;
+    /* height: 150vh; */
 }
 
 .contactTitle{
