@@ -17,6 +17,7 @@
   object-fit: cover;
   height: 3rem;
   width: 4rem;
+  cursor: pointer;
 }
 
 .desktopMenuListItem {
@@ -47,11 +48,7 @@
   margin: 1rem;
 }
 
-.active {
-  color: yellow;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
-}
+
 
 .navMenu {
   position: absolute;

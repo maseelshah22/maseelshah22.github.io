@@ -1,4 +1,4 @@
-#skills {
+#experience {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -11,7 +11,7 @@
 
 }
 
-.skillTitle{
+.expTitle{
 
     font-size: 3rem;
     font-weight: 600;
@@ -19,7 +19,7 @@
     margin-bottom: 1.5rem;
 
 }
-.skillDesc {
+.expDesc {
 
     font-weight: 200;
     font-size: .95rem;
@@ -27,7 +27,7 @@
     padding: 0 2rem;
 }
 
-.skillBars {
+.expBars {
 
     margin: 1.5rem;
     width: 100vw;
@@ -35,16 +35,17 @@
     text-align: left;
 }
 
-.skillBar {
+.expBar {
 
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: .5rem;
     background: rgb(50, 50, 50);
+    
 }
 
-.skillBarImg {
+.expBarImg {
 
     object-fit: cover;
     height: 3rem;
@@ -53,27 +54,27 @@
 
 }
 
-.skillBarText >p {
+.expBarText >p {
 
     font-size: .85rem;
     font-weight: 200;
 }
 
 @media screen and (max-width: 720px) {
-    .skillBarText >p {
+    .expBarText >p {
         font-size: 2vw;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .skillBarText >p {
+    .expBarText >p {
         font-size: 3vw;
     }
-    .skillBarImg{
+    .expBarImg{
         height: 2.25rem;
         width: 2.25rem;
     }
-    .skillBarText >h2 {
+    .expBarText >h2 {
         font-size: 5vw;
     }
 } 
