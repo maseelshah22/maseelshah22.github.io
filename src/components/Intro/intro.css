@@ -58,6 +58,20 @@
     margin: 0 0.25rem;
     height: 1rem;
 }
+.divider {
+    margin: 3rem;
+    width: 100%;
+    color: white;
+    border: 1px solid white; /* Adjust the color and style as needed */
+  }
+  .my-custom-hr {
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+
+ 
+  
 
 @media screen and (max-width: 840px) {
     .bg{

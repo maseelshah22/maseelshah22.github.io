@@ -17,7 +17,7 @@
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
-
+    margin-top: -3.5rem;
 }
 .expDesc {
 
@@ -59,7 +59,9 @@
     font-size: .85rem;
     font-weight: 200;
 }
-
+hr.solid {
+    width: 100vw;
+  }
 @media screen and (max-width: 720px) {
     .expBarText >p {
         font-size: 2vw;

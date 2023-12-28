@@ -6,7 +6,13 @@ import AppDesign from "../../assets/app-design.png";
 
 const Experience = () => {
   return (
+    
     <section id="experience">
+      <div className="divider">
+        
+      {/* <hr class="solid"/> */}
+
+      </div>
       <span className="expTitle">About Me</span>
       <span className="expDesc">
         I am a skilled
@@ -14,6 +20,7 @@ const Experience = () => {
         ok fill in .
       </span>
       <div className="expBars">
+        
         <div className="expBar">
           <img src={UIDesign} alt="UIDesign" className="expBarImg" />
           <div className="expBarText">

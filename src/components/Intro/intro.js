@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 const Intro = () => {
   return (
     <section id="intro">
+      
       <div className="introContent">
         <span className="hello">Hello, </span>
         <span className="introText">
@@ -23,8 +24,16 @@ const Intro = () => {
             Hire Me
           </button>
         </Link>
+        
       </div>
+      
       <img src={bg} alt="Profile" className="bg" />
+
+      <hr className="solid" /> {/*for some reason doesn't work with dotted or even with css */ }
+
+
+
+       
     </section>
   );
 };
