@@ -4,6 +4,7 @@ import "./intro.css";
 import bg from "../../assets/image.png";
 import btnImg from "../../assets/hireme.png";
 import { Link } from "react-scroll";
+import maseel from "../../assets/maseelphoto.png";
 
 const Intro = () => {
   return (
@@ -27,7 +28,7 @@ const Intro = () => {
         
       </div>
       
-      <img src={bg} alt="Profile" className="bg" />
+      <img src={maseel} alt="Profile" className="bg" />
 
       <hr className="solid" /> {/*for some reason doesn't work with dotted or even with css */ }
 
