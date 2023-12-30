@@ -10,11 +10,13 @@
 
 .bg{
     position: absolute;
-    top: 4rem;
-    right: 7rem;
+    top: 7rem;
+    right: 3rem;
     object-fit: cover;
     z-index: -1;
     height: 100vh;
+    
+   
 }
 
 .introContent{
@@ -42,7 +44,17 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+    max-width: 42%;
+    margin-bottom: 2rem;
 }
+.margin-gap{
+    margin: 1rem 0;
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-width: 94%;
+}
+ 
 
 .btn {
     background: white;
@@ -68,9 +80,21 @@
     border: 1px solid white;
     margin: 10px 0;
 }
+.links_intro {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.linkintro{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+}
 
 
- 
   
 
 @media screen and (max-width: 840px) {

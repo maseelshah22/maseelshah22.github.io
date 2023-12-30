@@ -29,19 +29,19 @@ const Navbar = () => {
           Portfolio
         </Link>
         <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={500} duration={500} className='desktopMenuListItem'>
-          Client
+          Contact Me
         </Link>
 
       </div>
 
-      <button
+      {/* <button
         className='desktopMenuButton'
         onClick={() => {
           document.getElementById('contactPage').scrollIntoView({ behavior: 'smooth' });
         }}>
         <img src={contactImg} alt='' className='desktopMenuImg' />
         Contact Me
-      </button>
+      </button> */}
 
       <img src={menu} alt='Menu' className='mobMenu' onClick={()=>setShowMenu(!showMenu)} />
       <div className='navMenu' style={{display: showMenu ? 'flex': 'none'}}>
@@ -55,7 +55,7 @@ const Navbar = () => {
           Portfolio
         </Link>
         <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>
-          Client
+          Contact Me
         </Link>
         <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>
           Contact

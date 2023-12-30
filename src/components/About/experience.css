@@ -51,6 +51,19 @@
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
+    cursor: pointer;
+    display: flex;
+    
+
+}
+.expBarImgSport {
+
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    
 
 }
 

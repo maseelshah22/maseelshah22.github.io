@@ -1,8 +1,8 @@
 import React,{useRef} from 'react'
 import './contact.css';
-import FacebookIcon from '../../assets/facebook-icon.png';
-import TwitterIcon from '../../assets/twitter.png';
-import InstagramIcon from '../../assets/instagram.png';
+import LinkedInIcon from '../../assets/linkedin_icon.png';
+import GitHubIcon from '../../assets/github_icon.png';
+import MailIcon from '../../assets/mail_icon.png';
 import emailjs from '@emailjs/browser';
 
 
@@ -23,7 +23,10 @@ const Contact = () => {
       });
   };
 
+
+
   return (
+    
     <section id="contactPage">
 
     <h2 className="contactTitle">Contact Me</h2>
@@ -33,15 +36,22 @@ const Contact = () => {
 
        <form className="contactForm" ref={form} onSubmit={sendEmail}>
 
-        <input type="text" className="name" placeholder='Your Name' name='from_name' maxLength="100" minLength="3"/>
-        <input type="email" className="email" placeholder='Your Email' name='reply_to' minLength="3" />
-        <textarea className='msg' name="message" rows="5" placeholder='Your Message' minLength="5" maxLength="1000"></textarea>
-        <button type='submit' value='Send' className="submitBtn">Submit</button>
+        <input type="text" className="name" placeholder='Your Name' name='from_name' maxLength="100" minLength="3" required/>
+        <input type="email" className="email" placeholder='Your Email' name='reply_to' minLength="3"  required/>
+        <textarea className='msg' name="message" rows="5" placeholder='Your Message' minLength="5" maxLength="1000" required></textarea>
+        <button type='submit' value='Send' className="submitBtn" >Submit</button>
         
         <div className="links">
-            <img src={FacebookIcon} alt="FaceBook" className="link" />
-            <img src={TwitterIcon} alt="Twitter" className="link" />
-            <img src={InstagramIcon} alt="Instagram" className="link" />
+            
+        <a href="https://github.com/maseelshah22" target="_blank" rel="noopener noreferrer" >
+          <img src={GitHubIcon} alt="GitHub" className="link" />
+            </a>
+            <a href="https://www.linkedin.com/in/maseel-shah-051385217/" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedInIcon} alt="LinkedIn" className="link" />
+            </a>
+            <a href="mailto:maseelshah1@gmail.com" >
+            <img src={MailIcon} alt="MailIcon" className="link" target="_blank" rel="noopener noreferrer"/>
+            </a>
         </div>
        </form>
     </div>
