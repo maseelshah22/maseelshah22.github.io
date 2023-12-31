@@ -34,10 +34,21 @@
 }
 
 .worksImg{
-    object-fit: cover;
-    height: 20rem;
+    display: inline-block;
+    object-fit: fill;
+    height: 364px;
     margin: 0.5rem;
     cursor: pointer;
+    width: 320px; 
+    border-radius: 2%;
+    opacity: .8;
+    /* height: auto; */
+}
+
+.image-link{
+    display: inline-block;
+    
+
 }
 
 .workBtn {
@@ -47,6 +58,7 @@
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (max-wdith: 585px){

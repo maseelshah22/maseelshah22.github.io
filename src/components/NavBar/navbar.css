@@ -7,7 +7,7 @@
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   justify-content: space-between;
   position: sticky;
   top: 0;
@@ -18,22 +18,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .logo {
+  margin-right: 5rem;
   object-fit: cover;
   height: 3rem;
   width: 4rem;
+  /* justify-content: center; */
   cursor: pointer;
   
 }
 
 .desktopMenuListItem {
-  margin: 1rem;
+  margin-right: 5rem;
   cursor: pointer;
   justify-content: center;
+  display: flex;
+  align-items: center;
+  /* flex-grow: 0; */
+  
 }
 .desktopMenuListItem:hover {
+  margin-left: 0rem;
+
   color: yellow;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid yellow;

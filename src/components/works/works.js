@@ -1,8 +1,8 @@
 import React from "react";
 import "./works.css";
-import Portfolio1 from "../../assets/portfolio-1.png";
-import Portfolio2 from "../../assets/portfolio-2.png";
-import Portfolio3 from "../../assets/portfolio-3.png";
+
+import Unimap_img from "../../assets/unimap5.png";
+import footballproject_img from "../../assets/footballproject_img.png";
 
 
 const Works = () => {
@@ -14,12 +14,18 @@ const Works = () => {
         <br />Below are a few  projects that I have worked on recently. Feel free to view the rest on my GitHub!</span>
         <div className="worksImgs">
        
-            <img src={Portfolio1} alt="" className="worksImg" />
-            <img src= {Portfolio2} alt="" className="worksImg" />
-            <img src={Portfolio3}  alt="" className="worksImg" />
+            <a href="https://github.com/maseelshah22/UniMap" target="_blank" rel="noopener noreferrer" >
+                <img src={Unimap_img} alt="" className="worksImg"   /> </a>
+           
+            
+
+            <a href="https://github.com/maseelshah22/FantasyFootballProject" target="_blank" rel="noopener noreferrer" >
+            <img src= {footballproject_img} alt="" className="worksImg" />
+            </a>
             
         </div>
-        <button className="workBtn">See More</button>
+        <a href="https://github.com/maseelshah22" target="_blank" rel="noopener noreferrer" >
+        <button className="workBtn">See More</button></a>
     </section>   
      )
 };

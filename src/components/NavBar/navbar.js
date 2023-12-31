@@ -8,15 +8,18 @@ import menu from '../../assets/menu.png';
 const Navbar = () => {
   const[showMenu,setShowMenu]= useState(false);
   return (
+    
     <nav className='navbar'>
       {/* <a href="#intro" duration={500}>
       
       </a> */}
       {/* scrolling  */}
-      <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='logoLink'>
-          <img src={logo} alt='Logo' className='logo' />
-        </Link>
       
+      <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='logoLink'>
+        <div className='logo'>
+          <img src={logo} alt='Logo' className='logo' />
+          </div>
+        </Link>
 
       <div className='desktopMenu'>
         <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>

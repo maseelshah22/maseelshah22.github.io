@@ -46,9 +46,9 @@ const Experience = () => {
           <img src={sports} alt="sports" className="expBarImgSport" />
           <div className="expBarText">
             <h2>Interests</h2>
-            <p>I enjoy playing sports including football, basketball, and spikeball. 
+            <p>In my free time, I enjoy playing sports including football, basketball, and spikeball. 
               I have also recently started golfing and playing pickleball. I'm always open to 
-               receiving new book and movie recommendations too. </p>
+               receiving new book and movie recommendations.  </p>
           </div>
         </div>
       </div>
