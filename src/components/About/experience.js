@@ -52,6 +52,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <hr className="solid" />
     </section>
   );
 };

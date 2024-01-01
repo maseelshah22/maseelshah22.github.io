@@ -15,11 +15,13 @@ const Navbar = () => {
       </a> */}
       {/* scrolling  */}
       
-      <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='logoLink'>
+      {/* <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='logoLink'> */}
+      <a href="/">
         <div className='logo'>
           <img src={logo} alt='Logo' className='logo' />
           </div>
-        </Link>
+          </a>
+        {/* </Link> */}
 
       <div className='desktopMenu'>
         <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>
