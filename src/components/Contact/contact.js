@@ -29,7 +29,7 @@ const Contact = () => {
     
     <section id="contactPage">
 
-    <div id="contactMe">
+    {/* <div id="contactMe"> */}
     <h2 className="contactTitle">Contact Me</h2>
 
        <span className="contactDescription">Feel free to reach out to me!</span>
@@ -54,7 +54,7 @@ const Contact = () => {
             </a>
         </div>
        </form>
-    </div>
+    {/* </div> */}
 
 
     </section>
