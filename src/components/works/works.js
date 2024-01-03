@@ -10,7 +10,7 @@ const Works = () => {
 
     <section id="works">
         <h2 className="worksTitle">My Portfolio</h2>
-        <span className="worksDesc">I enjoy brainstorming and devloping creative solutions to complex and common tasks. 
+        <span className="worksDesc">I enjoy brainstorming and developing creative solutions to complex and common tasks. 
         <br />Below are a few  projects that I have worked on recently. Feel free to view the rest on my GitHub!</span>
         <div className="worksImgs">
             <div className="worksImgContainer">
