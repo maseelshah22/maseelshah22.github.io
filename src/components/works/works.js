@@ -43,9 +43,10 @@ const Works = () => {
         <div className="seeMoreButton" >
         <a href="https://github.com/maseelshah22" target="_blank" rel="noopener noreferrer" >
         <button className="workBtn">See More</button></a>
+        <hr className="solid" />
         </div>    
         {/* <div className="solid" /> */}
-        <hr className="solid" />
+        
 
     </section>   
      )
