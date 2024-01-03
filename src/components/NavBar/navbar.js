@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* scrolling  */}
       
       {/* <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-100} duration={500} className='logoLink'> */}
-      <a href="/">
+      <a href="https://maseelshah22.github.io/portfolio/">
         <div className='logo'>
           <img src={logo} alt='Logo' className='logo' />
           </div>
