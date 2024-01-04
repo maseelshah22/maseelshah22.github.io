@@ -1,7 +1,7 @@
 
 #contactPage{
     margin: 0 auto;
-    min-height: calc(100vh -4rem);
+    /* min-height: calc(100vh - 4rem); */
     width: 100vw;
     max-width: 60rem;
     display: flex;
@@ -76,5 +76,5 @@
 
 }
 .solid{
-    color: green;
+    color: white;
 }
