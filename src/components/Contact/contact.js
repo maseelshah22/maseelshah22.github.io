@@ -24,7 +24,6 @@ const Contact = () => {
   };
 
 
-
   return (
     
     <section id="contactPage">
