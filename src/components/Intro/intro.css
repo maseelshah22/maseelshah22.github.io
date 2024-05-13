@@ -1,118 +1,126 @@
 /* #intro is for things with ID of intro */
-#intro{
-    height: calc(100vh - 4rem); /* 4rem is the height of the navbar so need to subtract it*/
+#intro {
+    padding-top: 7rem;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-}
-
-.bg{
-    position: absolute;
-    top: 7rem;
-    right: 3rem;
-    object-fit: cover;
-    z-index: -1;
-    height: 100vh;
-    
-   
-}
-
-.introContent{
-    height: 100vh;
-    width: 100vw;
+    padding-bottom: 2rem; /* Ensure some space for the hr element */
+  }
+  
+  .introWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 2rem;
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  }
+  
+  .introContent {
     font-size: 2.5rem;
     font-weight: 700;
+    max-width: 50%;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-}
-
-/* .hello is for class name hello*/
-.hello{
+    justify-content: center;
+  }
+  
+  .headshot {
+    object-fit: cover;
+    height: 50vh;
+    max-width: 40%;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-left: 0;
+    border-radius: 10px;
+    float: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  .headshot:hover {
+    transform: scale(1.05);
+    /* transition: transform 0.5s ease-in-out; */
+  }
+  
+  .hello {
     font-size: 1rem;
     font-weight: 300;
-}
-
-.introName{
-    color: yellow;
-}
-
-.introPara {
-    font-size: medium;
-    font-weight: 300;
-    letter-spacing: 1px;
-    max-width: 42%;
-    margin-bottom: 2rem;
-}
-.margin-gap{
-    margin: 1rem 0;
-    font-size: medium;
-    font-weight: 300;
-    letter-spacing: 1px;
-    max-width: 94%;
-}
- 
-
-.btn {
-    background: white;
-    margin: 1rem 0;
-    padding: .75rem 2rem;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-}
-
-.btnImg {
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
-}
-.divider {
-    margin: 3rem;
-    width: 100%;
-    color: white;
-    border: 1px solid white; 
   }
-  .my-custom-hr {
-    border: 1px solid white;
-    margin: 10px 0;
-}
-.links_intro {
+  
+  .introName {
+    color: gold;
+  }
+  
+  .introPara, .margin-gap {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  }
+  
+  .links_intro {
     display: flex;
     flex-wrap: wrap;
-   
-}
-
-.linkintro{
+  }
+  
+  .linkintro {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
     cursor: pointer;
-}
-
-
+    transition: transform 0.3s ease-in-out;
+  }
+  .linkintro:hover {
+    transform: scale(1.1);
+    /* transition: transform 0.5s ease-in-out; */
+  }
   
+  .lineWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  
+  .solid {
+    border: 1px solid white;
+    width: 90%;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .introWrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .introContent {
+      font-size: 6vw;
+      max-width: 100%;
+      order: 1; /* Ensure the content stays above the image */
+    }
+    .headshot {
+      height: auto;
+      width: 80%;
+      margin-top: 2rem; /* Add space between content and image */
+      order: 2; /* Ensure the image stays below the content */
+      justify-content: center;
 
-@media screen and (max-width: 840px) {
-    .bg{
-        right: -10vw
     }
-    .introContent{
-        font-size: 10vw;
+    .hello {
+      font-size: 4.5vw;
     }
-    .hello{
-        font-size: 4.5vw;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .introContent {
+      font-size: 4vw;
     }
-    
-}
-
-@media screen and (max-width: 480px) {
-    .bg{
-        right: -20vw
+    .headshot {
+      height: auto;
+      width: 100%;
     }
-   
-}
+  }
+  

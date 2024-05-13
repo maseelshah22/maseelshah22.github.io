@@ -22,7 +22,7 @@
 .expDesc {
 
     font-weight: 200;
-    font-size: .95rem;
+    font-size: 1rem;
     max-width: 50rem;
     padding: 0 2rem;
 }
@@ -38,12 +38,16 @@
 .expBar {
 
     display: flex;
+    color: white;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: .5rem;
     background: rgb(50, 50, 50);
-    
+    transition: transform 0.3s ease-in-out;
 }
+.expBar:hover {
+    transform: scale(1.02);
+  }
 
 .expBarImg {
 
@@ -69,8 +73,9 @@
 
 .expBarText >p {
 
-    font-size: .85rem;
+    font-size: .95rem;
     font-weight: 200;
+    
 }
 hr.solid {
     width: 100vw;

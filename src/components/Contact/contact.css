@@ -50,24 +50,34 @@
 
 .submitBtn{
     background: white;
+    color:black;
     border: none;
     padding: .75rem 3.5rem;
     border-radius: 2rem;
     margin: 2rem;
-
+    transition: transform 0.3s ease-in-out; 
+    font-family: 'Arial';
+    font-weight: bold;
 }
+.submitBtn:hover{
+    transform: scale(1.1);
+}
+
 
 .links {
     display: flex;
     flex-wrap: wrap;
 }
 
+  .link:hover {
+    transform: scale(1.1);
+  }
 .link{
     object-fit: cover;
     height: 2.5rem;
     width: 2.5rem;
     margin: 0 0.75rem;
-    cursor: pointer;
+    cursor: pointer;transition: transform 0.3s ease-in-out;
 }
 
 .submitBtn{

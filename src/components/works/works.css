@@ -13,11 +13,22 @@
     
 }
 
-
+.gitHubGold {
+    transition: transform 0.3s ease-in-out; 
+    
+    color:gold;
+}
+.gitHubGold:hover{
+    transform: scale(1.15);
+}
 
 .worksImgContainer{
 
     position: relative;
+    transition: transform 0.3s ease-in-out; 
+}
+.worksImgContainer:hover{
+    transform: scale(1.05);
 }
 
 .textTitle{
@@ -54,8 +65,9 @@
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
-
 }
+
+
 
 .worksImgs{
     display: flex;
@@ -78,6 +90,8 @@
     /* height: auto; */
 }
 
+
+
 .image-link{
     display: inline-block;
     
@@ -92,6 +106,12 @@
     border-radius: 2rem;
     font-size: 1rem;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+
+}
+
+.workBtn:hover{
+    transform: scale(1.05);
 }
 
 .solid {

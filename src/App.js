@@ -1,9 +1,9 @@
-import Navbar from "./components/NavBar/navbar.js";
-import Intro from "./components/Intro/intro.js";
-import Experience from "./components/About/experience.js";
-import Works from "./components/works/works.js";
-import Contact from "./components/Contact/contact.js";
-import Footer from "./components/Footer/footer.js";
+import Navbar from "./components/NavBar/navbar.jsx";
+import Intro from "./components/Intro/intro.jsx";
+import Experience from "./components/About/experience.jsx";
+import Works from "./components/works/works.jsx";
+import Contact from "./components/Contact/contact.jsx";
+import Footer from "./components/Footer/footer.jsx";
 
 function App() {
   return (
