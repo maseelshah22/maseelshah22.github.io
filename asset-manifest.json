@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f8bae98.css",
-    "main.js": "/portfolio/static/js/main.f252eec1.js",
-    "static/media/headshot.jpeg": "/portfolio/static/media/headshot.74b49af98ea794fe635d.jpeg",
-    "static/media/github_icon.png": "/portfolio/static/media/github_icon.4d74fd76ac168df7723c.png",
-    "static/media/uvalogo.png": "/portfolio/static/media/uvalogo.858cf6b41d5befe7bedc.png",
-    "static/media/linkedin_icon.png": "/portfolio/static/media/linkedin_icon.6ac77341c7a1f1743ba6.png",
-    "static/media/sports.png": "/portfolio/static/media/sports.3a7539dd442a98ea65cc.png",
-    "static/media/mail_icon.png": "/portfolio/static/media/mail_icon.f2e000b80d067eb62dd0.png",
-    "index.html": "/portfolio/index.html",
-    "main.9f8bae98.css.map": "/portfolio/static/css/main.9f8bae98.css.map",
-    "main.f252eec1.js.map": "/portfolio/static/js/main.f252eec1.js.map"
+    "main.css": "/static/css/main.9f8bae98.css",
+    "main.js": "/static/js/main.826721a4.js",
+    "static/media/headshot.jpeg": "/static/media/headshot.74b49af98ea794fe635d.jpeg",
+    "static/media/github_icon.png": "/static/media/github_icon.4d74fd76ac168df7723c.png",
+    "static/media/uvalogo.png": "/static/media/uvalogo.858cf6b41d5befe7bedc.png",
+    "static/media/linkedin_icon.png": "/static/media/linkedin_icon.6ac77341c7a1f1743ba6.png",
+    "static/media/sports.png": "/static/media/sports.3a7539dd442a98ea65cc.png",
+    "static/media/mail_icon.png": "/static/media/mail_icon.f2e000b80d067eb62dd0.png",
+    "index.html": "/index.html",
+    "main.9f8bae98.css.map": "/static/css/main.9f8bae98.css.map",
+    "main.826721a4.js.map": "/static/js/main.826721a4.js.map"
   },
   "entrypoints": [
     "static/css/main.9f8bae98.css",
-    "static/js/main.f252eec1.js"
+    "static/js/main.826721a4.js"
   ]
 }
