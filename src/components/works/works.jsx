@@ -29,7 +29,7 @@ const Works = () => {
 						rel="noopener noreferrer"
 					>
 						<img
-							src={`${process.env.PUBLIC_URL}`+project.image}
+							src={project.image}
 							alt=""
 							className="worksImg"
 						/>
